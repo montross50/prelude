@@ -1,0 +1,21 @@
+{
+    "name": "prelude/prelude",
+    "description": "Prelude, A small preface for your masterpiece.",
+
+    "homepage": "https://github.com/eridal/prelude",
+    "license": "MIT",
+
+    "authors": [{
+        "name": "Martin Scotta",
+        "email": "martinscotta@gmail.com",
+        "homepage": "http://www.martinscotta.com/"
+    }],
+
+    "require": {
+        "php": ">=5.3"
+    },
+
+    "autoload": {
+        "psr-4": {"Prelude\\": "src/"}
+    }
+}
